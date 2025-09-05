@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ! CSS link -->
     <link rel="stylesheet" href="./style.css" />
+
+    <!-- ! Fontawesome cdn link -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
@@ -11,9 +14,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Document</title>
+    <title>Float</title>
   </head>
-  <body class="container">
+  <body>
+    <!-- ? Header start -->
     <header>
       <div class="head">
         <h1>CSS Float Layout Challenge</h1>
@@ -21,19 +25,23 @@
       </div>
       <nav>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
+    <!-- ? Header end -->
+
+    <!-- ? Main start -->
     <main>
+      <!-- ? About section start -->
       <section id="about">
         <article>
           <img src="./css.png" alt="" />
-          <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2>Lorem, ipsum dolor.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
             officia, accusamus a nulla eos temporibus quisquam quae eum dolore
@@ -46,7 +54,7 @@
         </article>
         <article>
           <img src="./css.png" alt="" />
-          <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2>Lorem, ipsum dolor.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
             officia, accusamus a nulla eos temporibus quisquam quae eum dolore
@@ -59,7 +67,7 @@
         </article>
         <article>
           <img src="./css.png" alt="" />
-          <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2>Lorem, ipsum dolor.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
             officia, accusamus a nulla eos temporibus quisquam quae eum dolore
@@ -71,21 +79,21 @@
           </p>
         </article>
       </section>
+      <!-- ? About section end -->
+
+      <!-- ? Aside start -->
       <aside>
         <article>
-          <h4>About This Layout</h4>
-          <hr />
+          <h3>About This Layout</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fuga,
             rerum laudantium accusamus porro molestias unde? Sint corrupti, ad
-            dicta ullam placeat ea reiciendis sit molestiae fugiat consequuntur
-            suscipit dolorum?
+            dicta ullam placeat ea reiciendis sit.
           </p>
         </article>
         <article>
-          <h4>Follow us</h4>
-          <hr />
-          <ul>
+          <h3>Follow us</h3>
+          <ul class="social">
             <li>
               <a href=""><i class="fa-brands fa-facebook-f"></i></a>
             </li>
@@ -107,44 +115,52 @@
           </ul>
         </article>
         <article>
-          <h4>Recent Posts</h4>
-          <hr />
-          <ul>
+          <h3>Recent Posts</h3>
+          <ul class="recent">
             <li><a href="">Lorem ipsum dolor sit.</a></li>
             <li><a href="">Eum a eaque hic.</a></li>
             <li><a href="">Recusandae nisi repudiandae earum?</a></li>
           </ul>
         </article>
       </aside>
+      <!-- ? Aside end -->
     </main>
+    <!-- ? Main end -->
 
+    <!-- ? Footer start -->
     <footer>
       <article>
         <h4>Company</h4>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid id
           iusto dolorum cum reiciendis architecto dolore, sequi laudantium unde,
-          ipsam laboriosam neque dicta maiores ducimus veritatis expedita esse
-          excepturi veniam!
+          ipsam.
         </p>
       </article>
       <article>
         <h4>Services</h4>
         <ul>
-          <li><a href="">Web Design</a></li>
-          <li><a href="">Frontend development</a></li>
-          <li><a href="">CSS consulting</a></li>
-          <li><a href="">Layout Optimization</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Frontend development</a></li>
+          <li><a href="#">CSS consulting</a></li>
+          <li><a href="#">Layout Optimization</a></li>
         </ul>
       </article>
       <article>
         <h4>Contact</h4>
         <ul>
-          <li>Email:<a href="">info@floatyouts.com</a></li>
-          <li>Phone:<a href="">(555) 123-4567</a></li>
-          <li>Address<a href="">123 CSS Street</a></li>
+          <li>
+            Email: <a href="mailto:info@floatyouts.com">info@floatyouts.com</a>
+          </li>
+          <li>Phone: <a href="tel:(555) 123-4567">(555) 123-4567</a></li>
+          <li>Address: <a href="">123 CSS Street</a></li>
         </ul>
       </article>
+      <p class="copyright">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis,
+        numquam.
+      </p>
     </footer>
+    <!-- ? Footer end -->
   </body>
 </html>
